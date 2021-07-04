@@ -1,0 +1,118 @@
+body{
+  margin:0px;
+  padding:0px;
+}
+section{
+  background-color:white;
+  background-size:cover;
+  width:100%;
+  height:900px;
+  position:relative;
+  overflow: hidden;
+}
+div{width:100%;
+height:900px;
+position:relative;
+overflow: hidden;
+}
+@keyframes anim {
+
+  0%{
+    background-position: 0px 0px;
+  }
+  100%{
+    background-position: 150px 500px;
+  }
+
+}
+@keyframes animtwo {
+
+  0%{
+    background-position: 0px -100px;
+  }
+  100%{
+    background-position: 200px 750px;
+  }
+
+}
+@keyframes animthree {
+
+  0%{
+    background-position: 0px 0px;
+  }
+  100%{
+    background-position: 10px 950px;
+  }
+
+}
+@keyframes animfour {
+
+  0%{
+    background-position: 0px 0px;
+  }
+  100%{
+    background-position: 500px 850px;
+  }
+
+}
+
+.one{
+  background: url("i1.png") ;
+  background-repeat:repeat;
+  padding: 50px;
+  top:0px;
+  left:0px;
+  width: 100%;
+  height:750px;
+
+  background-size: 100px;
+  position: absolute;
+  animation: anim 20s infinite linear;
+
+}
+.two{
+  background: url("i1.png") ;
+  background-repeat:repeat;
+
+
+
+
+  background-size: 130px;
+  position: absolute;
+  top:75px;
+  left:75px;
+  animation: animtwo 20s infinite linear;
+}
+.three{
+  background: url("i.png") ;
+  background-repeat:repeat;
+
+  top:50px;
+  left:50px;
+
+
+  background-size: 160px;
+  position: absolute;
+  animation: animthree 20s infinite linear;
+}
+.four{
+  background: url("i1.png") ;
+  background-repeat:repeat;
+
+  top:90px;
+  left:10px;
+
+
+  background-size: 200px;
+  position: absolute;
+  animation: animfour 20s infinite linear;
+}
+.im{
+  background-image: url(sas.png);
+  background-size:cover;
+  margin-left: 250px;
+  width:50%;
+  height:900px;
+  position:relative;
+  overflow: hidden;
+}
